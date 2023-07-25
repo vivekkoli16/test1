@@ -11,11 +11,11 @@ public class NumberOperations {
         double num3 = scanner.nextDouble();
 
         double largest = Math.max(num1, Math.max(num2, num3));
-        //double sum = num1 + num2 + num3;
-       // double average = sum / 3;
+        double sum = num1 + num2 + num3;
+        double average = sum / 3;
 
         System.out.println("The sum of the largest number is: " + largest);
-       // System.out.println("The average of the three numbers is: " + average);
+        System.out.println("The average of the three numbers is: " + average);
 
         scanner.close();
     }
